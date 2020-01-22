@@ -8,4 +8,4 @@
     image_url: recipe.image_url,
     prep_time: recipe.prep_time
   }
-end
+end 
