@@ -1,2 +1,7 @@
 class Recipe < ApplicationRecord
-end
+  belongs_to :user
+
+  def chef
+    user.name
+  end
+end 
