@@ -10,4 +10,4 @@ Rails.application.routes.draw do
     patch '/recipes/:id' => 'recipes#update'
     delete '/recipes/:id' => 'recipes#destroy'
   end
-end
+end 
